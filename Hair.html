@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #444;
+}
+
+.nav li {
+  float : left;
+}
+
+.nav a{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.nav li a:hover {
+  background-color: #111;
+}
+
+
+.text-container
+{
+  position : absolute;
+  width : 50%;
+  top : 170px;
+  left : 400px;
+  font-size : 120%;
+  color : grey;
+  text-align : center;
+}
+* {
+  box-sizing: border-box;
+}
+
+.header, .footer {
+  background-color: grey;
+  color: white;
+  padding: 15px;
+  text-align : center;
+}
+
+.column {
+  float: left;
+  padding: 15px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.menu {
+  width: 25%;
+  border-style : solid;
+  border-color : white grey white white;
+  height : 100%;
+}
+
+.content {
+  width: 75%;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  color: #ffffff;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+.menu a 
+{
+  color: #ffffff;
+  text-decoration : none;
+  padding: 8px;
+  margin-bottom: 8px;
+  width : 25%;
+  background-color: #33b5e5;
+}
+
+.menu li a:hover {
+  background-color: #0099cc;
+} 
+.ul2
+{
+  list-style-type: none;
+  border : 2px solid white;
+  padding : 7px 50px 7px;
+}
+</style>
+</head>
+<body>
+  <div style="background-color: #444;">
+  <div class="nav" style = "margin-left: 35%;">
+    <ul>
+      <li><a href="Face.html">Face</a></li>
+      <li><a href="Body.html">Body</a></li>
+      <li><a href="Hair.html">Hair</a></li>
+      <li><a href="Bundle-offers.html">Bundle Offers</a></li>
+    </ul>
+    </div>
+  </div>
+
+<div class="header">
+  <h1 style="font-style : italic">Hair</h1>
+</div>
+
+<div class="clearfix">
+  <div class="column menu">
+    <ul>
+      <li><a style = "padding : 8px 214px 8px 8px" href="Home.html">Home</a></li>
+      <li><a style = "padding : 8px 213px 8px 8px"href="About.html">About</a></li>
+      <li><a style = "padding : 8px 180px 8px 8px"href="Contact-Us.html">Contact Us</a></li>
+    </ul>
+  </div> 
+</div>
+<div class = "clearfix">
+  <div class="text-container">
+    <p>There are no product in this selection.</p>
+</div>
+</body>
+</html>

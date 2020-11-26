@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #444;
+}
+
+.nav li {
+  float : left;
+}
+
+.nav a{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.nav li a:hover {
+  background-color: #111;
+}
+
+
+.img-container
+{
+  float : right;
+  width : 75%;
+}
+img.one { 
+  width: 150%;
+  height: auto;
+  opacity: 0.8;
+}
+.text-container
+{
+  position : absolute;
+  width : 50%;
+  top : 170px;
+  left : 400px;
+  font-size : 120%;
+  color : white;
+}
+* {
+  box-sizing: border-box;
+}
+
+.header, .footer {
+  background-color: grey;
+  color: white;
+  padding: 15px;
+  text-align : center;
+}
+
+.column {
+  float: left;
+  padding: 15px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.menu {
+  width: 25%;
+  border-style : solid;
+  border-color : white grey white white;
+  height : 100%;
+}
+
+.content {
+  width: 75%;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  color: #ffffff;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+.menu a 
+{
+  color: #ffffff;
+  text-decoration : none;
+  padding: 8px;
+  margin-bottom: 8px;
+  width : 25%;
+  background-color: #33b5e5;
+}
+
+.menu li a:hover {
+  background-color: #0099cc;
+} 
+</style>
+</head>
+<body>
+  <div style="background-color: #444;">
+  <div class="nav" style = "margin-left: 35%;">
+    <ul>
+      <li><a href="Face.html">Face</a></li>
+      <li><a href="Body.html">Body</a></li>
+      <li><a href="Hair.html">Hair</a></li>
+      <li><a href="Bundle-offers.html">Bundle Offers</a></li>
+    </ul>
+    </div>
+  </div>
+
+<div class="header">
+  <h1 style="font-style : italic">Beauty Bench</h1>
+</div>
+
+<div class="clearfix">
+  <div class="column menu">
+    <ul>
+      <li><a style = "padding : 8px 214px 8px 8px" href="Home.html">Home</a></li>
+      <li><a style = "padding : 8px 213px 8px 8px"href="About.html">About</a></li>
+      <li><a style = "padding : 8px 180px 8px 8px"href="Contact-Us.html">Contact Us</a></li>
+    </ul>
+  </div>
+  <div class="clearfix">
+    <div class="img-container">
+    <img class="one" src = "https://beautybench.pk/wp-content/uploads/2020/01/WhatsApp-Image-2020-01-04-at-1.07.38-AM-201x201.jpeg">
+</div>  
+</div>
+<div class = "clearfix">
+  <div class="text-container">
+    <h1>ABOUT US</h1>
+    <p>BeautyBench is the absolute premier online Organic Beauty store offering an industry leading selection of Complete natural beauty product. Our friendly and knowledgeable customer service team is always ready to provide the best customer service experience to ensure you find what you’re looking for. We guarantee our Beauty products to be 100% Fresh made with natural ingredients and the lowest possible price</p>
+  </div>
+</div>
+</body>
+</html>
